@@ -14,55 +14,6 @@
   font-style: normal;
 }
 
-html  {
-    font-size: 62.5%;
-}
-
-body {
-    width: 100%;
-    height: 100vh;
-    background-color: #131314;
-    color: #F9F6EE;
-}
-
-header {
-    margin-top: 20px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 16px 9%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.TopLeftName {
-    font-size: 40px;
-    color: #8B0000;
-    font-weight: 800;
-}
-
-nav a {
-    font-size: 20px;
-    color: #F9F6EE;
-    margin-left: 64px;
-    font-weight: 500;
-    border-bottom: 3px solid;
-}
-
-section {
-    min-height: 100vh;
-    padding: 80px 9% 80px;
-}
-
-.home{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 128px;
-}
-
 .home .homeContent h1{
     font-size: 65px;
     font-weight: 700;
@@ -78,10 +29,6 @@ section {
 
 .home .homeContent h3 {
     font-size: 50px;
-}
-
-span {
-    color: #8B0000;
 }
 
 .homeImage img {

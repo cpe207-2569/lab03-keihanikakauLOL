@@ -23,32 +23,76 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
-  <body>
-    <header>
-      <a href="index.html" class="TopLeftName">Arm</a>
-
-      <nav>
-        <a href="index.html">Home</a>
-        <a href="experience.html">My Experience</a>
-        <a href="contact.html">Contact Me</a>
+  <body class="w-full h-screen bg-[#131314] text-[#F9F6EE]">
+    <header
+      class="mt-5 fixed top-0 left-0 w-full flex justify-between items-center"
+      style="
+        padding-top: 16px;
+        padding-bottom: 16px;
+        padding-left: 9%;
+        padding-right: 9%;
+      "
+    >
+      <a
+        href="index.html"
+        class="text-[40px] font-[800] text-[#8B0000] hover:text-[#F9F6EE] transition-all"
+        >Arm</a
+      >
+      <!--nav a {
+    font-size: 20px;
+    color: #F9F6EE;
+    margin-left: 64px;
+    font-weight: 500;
+    border-bottom: 3px solid;
+}-->
+      <nav class="text-[20px] font-[500] text-[#F9F6EE]">
+        <a href="index.html" class="hover:text-[#8B0000] transition-all">Home</a>
+        <a href="experience.html" class="hover:text-[#8B0000] transition-all">My Experience</a>
+        <a href="contact.html" class="hover:text-[#8B0000] transition-all">Contact Me</a>
       </nav>
     </header>
-    <section class="home">
-      <div class="homeImage">
-        <img src="image\Me.JPG" alt="" />
+    <!--display flex justify center align item center-->
+    <section
+      class="flex flex-row items-center justify-center gap-[128px] max-[769px]:flex-col max-[769px]:gap-[25px] min-h-screen py-[80px] px-[9%]"
+    >
+      <div
+        class="relative w-[30%] h-auto rounded-[70px] shadow-xl/30 overflow-hidden"
+      >
+        <img src="image/Me.JPG" alt="" />
       </div>
+      <!--.home .homeContent h1{
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 1.3;
+      }   
+
+.home .homeContent h1 .Fullname {
+    font-size: 30px;
+    font-weight: 600;
+    color: #F9F6EE;
+    margin-left: 10px;
+}
+
+.home .homeContent h3 {
+    font-size: 50px;
+}-->
       <div class="homeContent">
-        <h1>
-          Hi, my name is <span>Arm</span
-          ><span class="Fullname" style="font-family: Pinyon Script"
-            >(Ananda Nantana)</span>
+        <h1 class="text-[47px] font-[700] max-[769px]:text-[30px]">
+          Hi, my name is <span class="text-[#8B0000]">Arm </span
+          ><span
+            class="text-[30px] font-[700] text-[#F9F6EE] max-[769px]:text-[19px]"
+            style="font-family: Pinyon Script"
+            >(Ananda Nantana)</span
+          >
         </h1>
-        <h3>About my skills</h3>
+        <h3 class="text-[30px] max-[769px]:text-[19px]">About my skills</h3>
         <div class="skills">
           <h4>Skills 💡</h4>
           <p>
-            มีประสบการณ์ในการเขียนโค้ดหลากหลายภาษาได้แก่ C++, Python, HTML และ CSS
+            มีประสบการณ์ในการเขียนโค้ดหลากหลายภาษาได้แก่ C++, Python, HTML และ
+            CSS
           </p>
         </div>
         <div class="skills">
