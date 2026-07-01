@@ -39,10 +39,24 @@
       crossorigin="anonymous"
     ></script>
 
-    <nav class="navbar navbar-expand-lg fixed top-0 left-0 w-full z-50 !bg-[#131314]" data-bs-theme="dark" style="padding-left: 9%; padding-right: 9%; padding-top: 16px; padding-bottom: 16px;">
+    <nav
+      class="navbar navbar-expand-lg fixed top-0 left-0 w-full z-50 !bg-[#131314]"
+      data-bs-theme="dark"
+      style="
+        padding-left: 9%;
+        padding-right: 9%;
+        padding-top: 16px;
+        padding-bottom: 16px;
+      "
+    >
       <div class="container-fluid !px-0">
-        <a class="navbar-brand !text-[40px] !font-[800] !text-[#8B0000] hover:!text-[#F9F6EE] transition-all duration-300 ease-in-out !p-0" href="index.html" style="font-family: 'Poppins'; text-decoration: none;">Arm</a>
-        
+        <a
+          class="navbar-brand !text-[40px] !font-[800] !text-[#8B0000] hover:!text-[#F9F6EE] transition-all duration-300 ease-in-out !p-0"
+          href="index.html"
+          style="text-decoration: none"
+          >Arm</a
+        >
+
         <button
           class="navbar-toggler"
           type="button"
@@ -54,36 +68,228 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        
-        <div class="collapse navbar-collapse !visible" id="navbarSupportedContent">
+
+        <div
+          class="collapse navbar-collapse !visible"
+          id="navbarSupportedContent"
+        >
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0 !gap-6 lg:!gap-10">
             <li class="nav-item">
-              <a class="nav-link !text-[20px] !text-[#F9F6EE] !font-[500] hover:!text-[#8B0000] transition-all duration-300 ease-in-out" aria-current="page" href="index.html">Home</a>
+              <a
+                class="nav-link !text-[20px] !text-[#F9F6EE] !font-[500] hover:!text-[#8B0000] transition-all duration-300 ease-in-out"
+                aria-current="page"
+                href="index.html"
+                >Home</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link !text-[20px] !text-[#F9F6EE] !font-[500] hover:!text-[#8B0000] transition-all duration-300 ease-in-out" href="favorite.html">Favorite</a>
+              <a
+                class="nav-link !text-[20px] !text-[#F9F6EE] !font-[500] hover:!text-[#8B0000] transition-all duration-300 ease-in-out"
+                href="favorite.html"
+                >Favorite</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link !text-[20px] !text-[#F9F6EE] !font-[500] hover:!text-[#8B0000] transition-all duration-300 ease-in-out" href="#">Gallery</a>
+              <a
+                class="nav-link !text-[20px] !text-[#F9F6EE] !font-[500] hover:!text-[#8B0000] transition-all duration-300 ease-in-out"
+                href="#"
+                >Gallery</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link !text-[20px] !text-[#F9F6EE] !font-[500] hover:!text-[#8B0000] transition-all duration-300 ease-in-out" href="contact.html">Contact Me</a>
+              <a
+                class="nav-link !text-[20px] !text-[#F9F6EE] !font-[500] hover:!text-[#8B0000] transition-all duration-300 ease-in-out"
+                href="contact.html"
+                >Contact Me</a
+              >
             </li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <section>
-      <h1>
-        My <span>Favorite</span>
+    <section
+      class="!flex !flex-col !items-center !px-[9%] !pt-[110px] !pb-[80px]"
+    >
+      <h1 class="!text-[47px] !font-[700] !mb-12 max-[769px]:!text-[30px]">
+        My <span class="!text-[#8B0000]">Favorite</span>
       </h1>
 
-      <!--1-->
-      <div>
-        
+      <div class="!flex !flex-col !gap-8 w-full max-w-[1100px]">
+        <!--1-->
+        <div
+          class="!flex !flex-row !border-[3px] !border-[#8B0000] !rounded-[10px] !bg-[#1c1c1e] overflow-hidden !gap-6"
+          style="
+            padding-top: 20px;
+            padding-bottom: 20px;
+            padding-left: 28px;
+            padding-right: 28px;
+          "
+        >
+          <div
+            class="hidden md:block h-[220px] aspect-square flex-shrink-0 overflow-hidden rounded-[8px]"
+          >
+            <img
+              src="image/chessdotcom.png"
+              alt=""
+              class="w-full h-full !object-cover"
+            />
+          </div>
+          <div class="!flex !flex-col !justify-center flex-1">
+            <a
+              href="https://www.chess.com/home"
+              target="_blank"
+              rel=""
+              style="text-decoration: none"
+            >
+              <h4
+                class="!text-[#F9F6EE] !text-[28px] max-[769px]:!text-[22px] !font-[600] mb-2 hover:!text-[#8B0000] transition-all duration-300 ease-in-out"
+              >
+                Chess
+              </h4>
+            </a>
+            <p
+              class="!text-[18px] max-[769px]:!text-[15px] !font-[400] !text-[#F9F6EE]/80 mb-0"
+            >
+              ในเวลาว่างผมชอบที่จะเล่นหมากรุก
+              ถึงแม้ว่าผมจะไม่เก่งก็ตามแต่ก็เล่นเอาเพื่อความสนุกสนาน
+              และจะพยายามพัฒนาให้ตัวเองเล่นเก่งขึ้นไปเรื่อยๆ
+              ถึงแม้ในตอนนี้จะเรียนรู้ Gambit
+              ได้ไม่มากแต่ก็มีความสนใจที่จะเรียนรู้เพิ่มเติมเสมอ
+              ผมมักจะชอบเปิดเกมด้วย Italian Game ถ้าผมเล่นสีขาว และผมมักจะเล่น
+              Caro-Kann defense ถ้าผมเล่นสีดำ
+            </p>
+          </div>
+        </div>
+
+        <!--2-->
+        <div
+          class="!flex !flex-row-reverse !border-[3px] !border-[#8B0000] !rounded-[10px] !bg-[#1c1c1e] overflow-hidden !gap-6"
+          style="
+            padding-top: 20px;
+            padding-bottom: 20px;
+            padding-left: 28px;
+            padding-right: 28px;
+          "
+        >
+          <div
+            class="hidden md:block h-[220px] aspect-square flex-shrink-0 overflow-hidden rounded-[8px]"
+          >
+            <img
+              src="image/spotify.jpg"
+              alt=""
+              class="w-full h-full !object-cover"
+            />
+          </div>
+          <div class="!flex !flex-col !justify-center flex-1">
+            <a
+              href="https://open.spotify.com"
+              target="_blank"
+              rel=""
+              style="text-decoration: none"
+            >
+              <h4
+                class="!text-[#F9F6EE] !text-[28px] max-[769px]:!text-[22px] !font-[600] mb-2 hover:!text-[#8B0000] transition-all duration-300 ease-in-out"
+              >
+                Spotify
+              </h4>
+            </a>
+            <p
+              class="!text-[18px] max-[769px]:!text-[15px] !font-[400] !text-[#F9F6EE]/80 mb-0"
+            >
+              ผมใช้ Spotify บ่อยมากๆ ใช้แทบจะทุกเวลา
+              ผมเป็นคนที่ชอบฟังเพลงมากๆซึ่งผมเลือกที่จะใช้ Platform นี้เป็นหลัก
+              ผมหาร Spotify กับเพื่อนมัธยมของผม หารกันมาได้ 4
+              ปีแล้วซึ่งก็ยังหารกันอยู่จนถึงปัจจุบันนี้ วงที่ผมชอบฟังก็คือ
+              Arctic Monkeys, The Last Shadow Puppets, The Smiths และอื่นๆ
+            </p>
+          </div>
+        </div>
+
+        <!--3-->
+        <div
+          class="!flex !flex-row !border-[3px] !border-[#8B0000] !rounded-[10px] !bg-[#1c1c1e] overflow-hidden !gap-6"
+          style="
+            padding-top: 20px;
+            padding-bottom: 20px;
+            padding-left: 28px;
+            padding-right: 28px;
+          "
+        >
+          <div
+            class="hidden md:block h-[220px] aspect-square flex-shrink-0 overflow-hidden rounded-[8px]"
+          >
+            <img
+              src="image/youtube.png"
+              alt=""
+              class="w-full h-full !object-cover"
+            />
+          </div>
+          <div class="!flex !flex-col !justify-center flex-1">
+            <a
+              href="https://www.youtube.com"
+              target="_blank"
+              rel=""
+              style="text-decoration: none"
+            >
+              <h4
+                class="!text-[#F9F6EE] !text-[28px] max-[769px]:!text-[22px] !font-[600] mb-2 hover:!text-[#8B0000] transition-all duration-300 ease-in-out"
+              >
+                youtube
+              </h4>
+            </a>
+            <p
+              class="!text-[18px] max-[769px]:!text-[15px] !font-[400] !text-[#F9F6EE]/80 mb-0"
+            >
+              เรียกได้ว่าเป็นเพื่อนคู่ใจตอนกินข้าว ตอนเรียนหนังสือ ตอนเหงา
+              ตอนไหนก็ตามก็จะมี Youtube อยู่เป็นเพื่อนเลย
+              ตอนกินข้าวผมจะชอบดูช่อง Veritasium และ 3blue1brown
+              ในตอนว่างๆผมดูไปเรื่อยเปื่อย สปอยหนังบ้าง เกมบ้าง สารคดีบ้าง
+              และอื่นๆอีกมากมาย
+            </p>
+          </div>
+        </div>
+
+        <!--4-->
+        <div
+          class="!flex !flex-row-reverse !border-[3px] !border-[#8B0000] !rounded-[10px] !bg-[#1c1c1e] overflow-hidden !gap-6"
+          style="
+            padding-top: 20px;
+            padding-bottom: 20px;
+            padding-left: 28px;
+            padding-right: 28px;
+          "
+        >
+          <div
+            class="hidden md:block h-[220px] aspect-square flex-shrink-0 overflow-hidden rounded-[8px]"
+          >
+            <img
+              src="image/instagram.jpg"
+              alt=""
+              class="w-full h-full !object-cover"
+            />
+          </div>
+          <div class="!flex !flex-col !justify-center flex-1">
+            <a
+              href="https://www.instagram.com"
+              target="_blank"
+              rel=""
+              style="text-decoration: none"
+            >
+              <h4
+                class="!text-[#F9F6EE] !text-[28px] max-[769px]:!text-[22px] !font-[600] mb-2 hover:!text-[#8B0000] transition-all duration-300 ease-in-out"
+              >
+                Instagram
+              </h4>
+            </a>
+            <p
+              class="!text-[18px] max-[769px]:!text-[15px] !font-[400] !text-[#F9F6EE]/80 mb-0"
+            >
+              Social Media หลักที่ผมใช้เป็นประจำ และเป็นที่ที่เพื่อนๆของผม Active มากที่สุด ผมมักจะใช้ Instagram ในการติดต่อคุยกับเพื่อน รวมถึงเอาไว้ลง Story ประจำวันของตัวเอง ผมมักจะชอบดู Reels ด้วยเช่นเดียวกัน ผมชอบดูแมวและก็การ์ตูน Chiikawa 
+            </p>
+          </div>
+        </div>
       </div>
     </section>
-
   </body>
 </html>
